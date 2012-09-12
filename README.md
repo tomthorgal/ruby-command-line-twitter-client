@@ -5,23 +5,27 @@
 **Website**: `https://github.com/tomthorgal/Ruby-command-line-twitter-client`  
 **Author**: Thomas Vollath (@tomthorgal)  
 **Based on**: `http://www.noppanit.com/ruby-command-line-twitter-client-made-easy/`  
-**Helpful docs**: `https://dev.twitter.com/docs/api`  
-              `https://github.com/moomerman/twitter_oauth`  
+**Helpful docs**:
+    https://dev.twitter.com/docs/api  
+    https://github.com/moomerman/twitter_oauth  
 
-## Install  
+## Install
     gem install twitter_oauth
     gem install colored
     git clone git@github.com:tomthorgal/Ruby-command-line-twitter-client.git
 * Get your twitter consumer and access keys from: https://dev.twitter.com/apps/
 * Make sure that you give the application "*read*, *write*, and *direct messages*" access when you set it up
 * Add the keys to your .bashrc (linux only) file:
-    export TWITTER_CONSUMER_KEY=your-consumer-key  
-    export TWITTER_CONSUMER_SECRET=your-conusmer-secret  
-    export TWITTER_ACCESS_TOKEN=your-access-token  
+
+    export TWITTER_CONSUMER_KEY=your-consumer-key
+    export TWITTER_CONSUMER_SECRET=your-conusmer-secret
+    export TWITTER_ACCESS_TOKEN=your-access-token
     export TWITTER_ACCESS_SECRET=your-access-secret
-* Edit your .bashrc file and add a new alias:  
-    alias twitter='ruby /your/path/command-line-twitter-client.rb'  
+* Edit your .bashrc file and add a new alias:
+
+    alias twitter='ruby /your/path/command-line-twitter-client.rb'
 * Reload your .profile:
+
     source ~/.profile
 
 ## Usage
@@ -55,9 +59,9 @@
   please escape special characters like `\#` or `\@`
 
 ## Change log
-* 1.0.2 - Changed the README.markdown to README.md and updated the content.
-* 1.0.1 - Changed the way the keys are stored. Now moved in to .bashrc.
-* 1.0 - Basic functionality
+* **1.0.2** - Changed the README.markdown to README.md and updated the content.
+* **1.0.1** - Changed the way the keys are stored. Now moved in to .bashrc.
+* **1.0** - Basic functionality
 
 ## Future plans
  - Add @user profile views
