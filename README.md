@@ -42,23 +42,41 @@ Reload your .profile:
 
 ## Examples
     twitter -l
+
   will list your 5 (default) most recent home timeline tweets
+
     twitter -l 10
+
   will list your 10 most recent home timeline tweets
+
     twitter -m
+
   will list your 5 (default) most recent mentions
+
     twitter -m 10
+
   will list your 10 most recent mentions
+
     twitter -u
+
   will prompt you for the update you want to tweet
+
     twitter -u "Your update text"
+
   will post a new tweet with the update text
+
     twitter -s
+
   will prompt you for a search parameter
+
     twitter -s \#elephant
+
   will list the 5 (default) most recent tweets that contain #elephant
+
     twitter -s \#elephant 50
+
   will list the 50 most recent tweets that contain #elephant
+
 ### Note for searches
   If you search for more than one word please wrap them in **"..."** quotes
   please escape special characters like `\#` or `\@`
