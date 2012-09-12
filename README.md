@@ -8,20 +8,29 @@
 **Helpful docs**: https://dev.twitter.com/docs/api https://github.com/moomerman/twitter_oauth
 
 ## Install
-Install the required gems and clone the repository:  
+Install the required gems and clone the repository:
+
     gem install twitter_oauth
     gem install colored
     git clone git@github.com:tomthorgal/ruby-command-line-twitter-client.git
-Get your twitter consumer and access keys from: https://dev.twitter.com/apps/  
-Make sure that you give the application "*read*, *write*, and *direct messages*" access when you set it up  
-Add the keys to your .bashrc (linux only) file:  
+
+Get your twitter consumer and access keys from: https://dev.twitter.com/apps/
+
+Make sure that you give the application "*read*, *write*, and *direct messages*" access when you set it up.
+
+Add the keys to your .bashrc (linux only) file:
+
     export TWITTER_CONSUMER_KEY=your-consumer-key
     export TWITTER_CONSUMER_SECRET=your-conusmer-secret
     export TWITTER_ACCESS_TOKEN=your-access-token
     export TWITTER_ACCESS_SECRET=your-access-secret
-Edit your .bashrc file and add a new alias:  
+
+Edit your .bashrc file and add a new alias:
+
     alias twitter='ruby /your/path/command-line-twitter-client.rb'
-Reload your .profile:  
+
+Reload your .profile:
+
     source ~/.profile
 
 ## Usage
