@@ -3,7 +3,7 @@
 # Source: git@github.com:tomthorgal/Ruby-command-line-twitter-client.git
 # Website: https://github.com/tomthorgal/Ruby-command-line-twitter-client
 # Author: Thomas Vollath (@tomthorgal)
-# Version: 1.0.1
+# Version: 1.0.2
 
 system("clear")
 
@@ -72,7 +72,7 @@ when '-s'
 else
   system("clear")
   puts "--------------------------------------------------------------------"
-  puts "Command-line twitter client - v1.0.1\n".red.bold
+  puts "Command-line twitter client - v1.0.2\n".red.bold
   puts "Usage: " + "twitter -[l|m] {count:int}".green
   puts "       " + "twitter -[u] {text:string}".green
   puts "       " + "twitter -[s] {text:string} {count:int}\n".green
