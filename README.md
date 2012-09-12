@@ -1,13 +1,11 @@
 # Command-line Twitter client written in Ruby
 
 **Version**: 1.0.2
-
 **Source**: `git@github.com:tomthorgal/Ruby-command-line-twitter-client.git`
-
 **Website**: `https://github.com/tomthorgal/Ruby-command-line-twitter-client`
 **Author**: Thomas Vollath (@tomthorgal)
-Based on: `http://www.noppanit.com/ruby-command-line-twitter-client-made-easy/`
-Helpful docs: `https://dev.twitter.com/docs/api`
+**Based on**: `http://www.noppanit.com/ruby-command-line-twitter-client-made-easy/`
+**Helpful docs**: `https://dev.twitter.com/docs/api`
               `https://github.com/moomerman/twitter_oauth`
 
 ## Install
