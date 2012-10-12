@@ -18,20 +18,20 @@ Get your twitter consumer and access keys from: https://dev.twitter.com/apps/
 
 Make sure that you give the application "*read*, *write*, and *direct messages*" access when you set it up.
 
-Add the keys to your .bashrc (linux only) file:
+Add the keys to your ~/.profile (linux only) file:
 
     export TWITTER_CONSUMER_KEY=your-consumer-key
     export TWITTER_CONSUMER_SECRET=your-conusmer-secret
     export TWITTER_ACCESS_TOKEN=your-access-token
     export TWITTER_ACCESS_SECRET=your-access-secret
 
-Edit your .bashrc file and add a new alias:
+Edit your ~/.profile file and add a new alias:
 
     alias twitter='ruby /your/path/command-line-twitter-client.rb'
 
-Reload your .bashrc:
+Reload your ~/.profile:
 
-    source ~/.bashrc
+    source ~/.profile
 
 ## Usage
 `twitter` => to see usage options
