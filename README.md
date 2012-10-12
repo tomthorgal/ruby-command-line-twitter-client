@@ -29,9 +29,9 @@ Edit your .bashrc file and add a new alias:
 
     alias twitter='ruby /your/path/command-line-twitter-client.rb'
 
-Reload your .profile:
+Reload your .bashrc:
 
-    source ~/.profile
+    source ~/.bashrc
 
 ## Usage
 `twitter` => to see usage options
